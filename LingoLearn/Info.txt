@@ -1,0 +1,7 @@
+Adding backend to project : 
+- @google/genai is the SDK you’re using (GoogleGenAI).
+- express for the tiny server.
+(express provides tools for backend)
+- dotenv for .env support.
+- cors to allow your Vite frontend to call the backend during dev.
+
