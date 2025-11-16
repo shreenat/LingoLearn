@@ -1,8 +1,8 @@
 import './HomePage.css';
-import SelectionPage  from './SelectionPage';
+//import SelectionPage  from './SelectionPage';
 import logo from '../assets/logo.png';
 import monkey_img from '../assets/monkey.png';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 interface HomePageProps {
   onStart: () => void;
