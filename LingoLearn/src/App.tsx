@@ -4,7 +4,8 @@ import { GenerateContentResponse, GoogleGenAI } from "@google/genai";
 
 
 function App() {
-  //const [count, setCount] = useState(0)
+
+  const [inputText, setInputText] = useState<string>("");
 
   const [apiResponse, setApiResponse] = useState<string>("");
   // The client gets the API key from the environment variable `GEMINI_API_KEY`.
@@ -28,9 +29,17 @@ function App() {
     //console.log(response.text);
   }
   
+  function handleInput(e: React.ChangeEvent<HTMLInputElement>) {
+    setInputText(e.target.value);
+    
+  }
+
   return (
     <>
       <h1>Lingo Learn!</h1>
+
+      <p>Write something in Spanish : </p>
+      <input type="text"  id="myInput" placeholder="" onChange={(e) => handleInput(e)}></input>
       <button onClick={generateResponse}>Generate Response</button>
       <p>{apiResponse}</p>
     </>
