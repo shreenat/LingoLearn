@@ -42,25 +42,28 @@ function SelectionPage({ selection, setSelection, onNext }: SelectionPageProps) 
     //   {/* Next button (only go forward once something selected for each section) */}
     // </div>
   <div className='selection'>
-    {/* <div className="radio-group">
-    <label className="radio-option">
-      <input type="radio" name="lang" value="english"></input>
+    <ul className="radio-group">
+      <li className='radio-option'>hello!</li>
+    {/* <li className="radio-option">
+      <input type="radio" name="lang" value="beginner"></input>
       <span className="custom-radio"></span>
       English
-    </label>
+    </li>
 
-    <label className="radio-option">
-      <input type="radio" name="lang" value="spanish"> </input>
+    <li className="radio-option">
+      <input type="radio" name="lang" value="intermediate"> </input>
       <span className="custom-radio"></span>
       Spanish
-    </label>
+    </li>
 
-    <label className="radio-option">
-      <input type="radio" name="lang" value="french"></input>
+    <li className="radio-option">
+      <input type="radio" name="lang" value="advanced"></input>
       <span className="custom-radio"></span>
       French
-    </label>
-    </div> */}
+    </li> */}
+  </ul>
+      <br></br>
+      <br></br>
     <button className='next-button' onClick={onNext}>NEXT</button>
   </div>
   
