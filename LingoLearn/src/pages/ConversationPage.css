@@ -1,0 +1,91 @@
+section {
+font-family: Arial, sans-serif;
+background: #FFF5E2;
+padding: 20px;
+margin : 1px;
+}
+
+
+.container {
+width: 1000px;
+height : 400px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+.dialogue-box {
+background: #FF8A11;
+padding: 20px;
+height: auto;
+width :700px;
+border-radius: 12px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+overflow-y: auto;
+align-self: flex-end; 
+margin-bottom: 0px;
+font-family: "Inter", sans-serif;
+font-style: normal;
+font-size: 1.5rem;
+text-align: left;
+padding-top: 0px;
+}
+
+
+.feedback-box {
+background: #FFB76B;
+padding: 15px;
+height: 100px;
+width :500px;
+border-radius: 12px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+align-self: flex-end; 
+margin-bottom: 50px;
+margin-top: -10px;
+font-family: "Inter", sans-serif;
+font-style: normal;
+font-size: 1.5rem;
+text-align: left;
+padding-top: 0px;
+}
+
+
+.response-box {
+background: #67C0AC;
+padding: 20px;
+height: 50px;
+width: 700px;
+border-radius: 12px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+align-self: flex-start; 
+font-family: "Inter", sans-serif;
+font-style: normal;
+font-size: 1.5rem;
+text-align: left;
+padding-top: 0px;
+}
+
+#start-talking-button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background-color: #FF8A11;
+  color: white;
+  border-radius: 5px;
+  padding: 12px 16px;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 40rem;
+}
+
+#myInput {
+  background: #FF8A11;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  width : 100%;
+  height : 100%;
+  border: none;         /* removes blue focus ring */
+}
