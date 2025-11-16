@@ -23,7 +23,7 @@ function HomePage({ onStart }: HomePageProps) {
 
       {/* INFO CARD + START BUTTON */}
       <div className='container'>
-        <div className="body-card" style={{ width: '60%', height: 'auto' }}>
+        <div className="body-card">
           <h1>
             LEARN A LANGUAGE THROUGH CONVERSATION
           </h1>
@@ -31,9 +31,10 @@ function HomePage({ onStart }: HomePageProps) {
             Roleplay conversations in various scenarios and get live feedback on your grammar, vocabulary, and accent!
           </p>
         </div>
-        <img src={monkey_img} alt="...monkey..." style={{ width: '30%'}}></img>
+        <div className='monkeyImage'>
+          <img src={monkey_img} alt="...monkey..."></img>
+        </div>
       </div>
-
 
       <button className='start-button inter-bold' onClick={onStart}>
         START NOW!

@@ -19,7 +19,7 @@ gap: 20px;
 .dialogue-box {
 background: #FF8A11;
 padding: 20px;
-height: auto;
+height: 300px;
 width :700px;
 border-radius: 12px;
 box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -37,7 +37,7 @@ padding-top: 0px;
 .feedback-box {
 background: #FFB76B;
 padding: 15px;
-height: 100px;
+height: 600px;
 width :500px;
 border-radius: 12px;
 box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -49,13 +49,14 @@ font-style: normal;
 font-size: 1.5rem;
 text-align: left;
 padding-top: 0px;
+overflow-y: auto;
 }
 
 
 .response-box {
 background: #67C0AC;
 padding: 20px;
-height: 50px;
+height: 300px;
 width: 700px;
 border-radius: 12px;
 box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -65,6 +66,7 @@ font-style: normal;
 font-size: 1.5rem;
 text-align: left;
 padding-top: 0px;
+overflow-y: auto;
 }
 
 #start-talking-button {
@@ -83,9 +85,9 @@ padding-top: 0px;
 #myInput {
   background: #FF8A11;
   font-size: 1.5rem;
-  font-weight: bold;
   color: white;
   width : 100%;
   height : 100%;
-  border: none;         /* removes blue focus ring */
+  border: none;
+  outline : none;      /* removes default outline */
 }
